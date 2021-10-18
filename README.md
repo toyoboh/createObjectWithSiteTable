@@ -33,34 +33,34 @@
     $ echo 'eval "$(pyenv init -)"' >> ~/.zshrc  
     $ source ~/.zshrc  
 
-　●Pythonのインストール
-　　・pyenvでインストール可能なバージョンの一覧を確認
-　　　$ pyenv install --list
+　●Pythonのインストール  
+　　・pyenvでインストール可能なバージョンの一覧を確認  
+　　　`$ pyenv install --list`  
 
-　　・Pythonのインストール（今回はpandasを使いたいので、3.8.0を使う）
-　　　$ pyenv install 3.8.0
+　　・Pythonのインストール（今回はpandasを使いたいので、3.8.0を使う）  
+　　　`$ pyenv install 3.8.0`  
 
-　　・pyenvによって管理されているものの確認（インストールしたバージョンが表示される）
-　　　$ pyenv versions
+　　・pyenvによって管理されているものの確認（インストールしたバージョンが表示される）  
+　　　`$ pyenv versions`  
 
-　　・Pythonのバージョンの指定
-　　　$ pyenv global 3.8.0
+　　・Pythonのバージョンの指定  
+　　　`$ pyenv global 3.8.0`  
 
-　　・Pythonのバージョン確認
-　　　$ python --version
+　　・Pythonのバージョン確認  
+　　　`$ python --version`  
 
-使用するライブラリのインストール方法
-　$ pip install pandas lxml html5lib beautifulsoup4
+使用するライブラリのインストール方法  
+　`$ pip install pandas lxml html5lib beautifulsoup4`  
 
-　【関連サイト】
-　　https://note.nkmk.me/python-pandas-web-html-table-scraping/
+　【関連サイト】  
+　　https://note.nkmk.me/python-pandas-web-html-table-scraping/  
 
-　【インストール時エラーの関連サイト】
-　　・macOS Big Surアップデート後のエラーの場合
-　　　　https://qiita.com/Butterthon/items/e7d1f379c828b41f3e19
+　【インストール時エラーの関連サイト】  
+　　・macOS Big Surアップデート後のエラーの場合  
+　　　　https://qiita.com/Butterthon/items/e7d1f379c828b41f3e19  
 
-　　・pyenv installでwarning generated エラー発生時
-　　　　https://harucharuru.hatenablog.com/entry/2020/11/16/205232
+　　・pyenv installでwarning generated エラー発生時  
+　　　　https://harucharuru.hatenablog.com/entry/2020/11/16/205232  
 
-　　・pandas使用時に"lzma"が入っていないというwarningが発生した場合
-　　　　https://zenn.dev/grahamian/articles/f292163325653dbe2c42
+　　・pandas使用時に"lzma"が入っていないというwarningが発生した場合  
+　　　　https://zenn.dev/grahamian/articles/f292163325653dbe2c42  
