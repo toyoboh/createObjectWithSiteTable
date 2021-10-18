@@ -16,10 +16,13 @@ $ python index.py
 ## 環境構築（Mac用）  
 　●Homebrewインストール  
 　　・バージョン確認（not foundならインストール要）  
-　　　`$ brew -v`
+```
+$ brew -v
+```
 
 　　・インストール  
-　　　`$ /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"`
+```$ /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+```
 
 　●pyenvインストール  
 　　・バージョン確認（not foundならインストール要）  
