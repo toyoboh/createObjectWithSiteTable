@@ -27,36 +27,54 @@ $ /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/inst
 
 　●pyenvインストール  
 　　・バージョン確認（not foundならインストール要）  
-　　　`$ pyenv -v`  
+```
+$ pyenv -v
+```  
 
 　　・インストール  
-　　　`$ brew install pyenv`  
+```
+$ brew install pyenv
+```  
 
 　　・pyenvの設定（echoの部分はviで ~/.zshrcに書いてもいい）  
 　　　【zshの場合】  
-    $ echo 'export PYENV_ROOT="$HOME/.pyenv"' >> ~/.zshrc  
-    $ echo 'export PATH="$PYENV_ROOT/shims:$PATH"' >> ~/.zshrc  
-    $ echo 'eval "$(pyenv init -)"' >> ~/.zshrc  
-    $ source ~/.zshrc  
+```
+$ echo 'export PYENV_ROOT="$HOME/.pyenv"' >> ~/.zshrc  
+$ echo 'export PATH="$PYENV_ROOT/shims:$PATH"' >> ~/.zshrc  
+$ echo 'eval "$(pyenv init -)"' >> ~/.zshrc  
+$ source ~/.zshrc  
+```
 
 　●Pythonのインストール  
 　　・pyenvでインストール可能なバージョンの一覧を確認  
-　　　`$ pyenv install --list`  
+```
+$ pyenv install --list
+```
 
 　　・Pythonのインストール（今回はpandasを使いたいので、3.8.0を使う）  
-　　　`$ pyenv install 3.8.0`  
+```
+$ pyenv install 3.8.0
+```
 
 　　・pyenvによって管理されているものの確認（インストールしたバージョンが表示される）  
-　　　`$ pyenv versions`  
+```
+$ pyenv versions
+```
 
 　　・Pythonのバージョンの指定  
-　　　`$ pyenv global 3.8.0`  
+```
+$ pyenv global 3.8.0
+```
 
 　　・Pythonのバージョン確認  
-　　　`$ python --version`  
+```
+$ python --version
+```
 
 ## 使用するライブラリのインストール方法  
-　`$ pip install pandas lxml html5lib beautifulsoup4`  
+```
+$ pip install pandas lxml html5lib beautifulsoup4
+```
 
 　【関連サイト】  
 　　https://note.nkmk.me/python-pandas-web-html-table-scraping/  
