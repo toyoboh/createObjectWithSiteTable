@@ -1,6 +1,6 @@
 ## 使用方法  
 　当該フォルダに移動し、以下コマンド実行  
-　`$ python index.py`
+　```$ python index.py```
 
 ## 説明  
 　以下サイトの「減価償却資産の償却率表」の表のデータを取得し  
@@ -14,17 +14,17 @@
 ## 環境構築（Mac用）  
 　●Homebrewインストール  
 　　・バージョン確認（not foundならインストール要）  
-　　　`$ brew -v`
+　　　```$ brew -v```
 
 　　・インストール  
-　　　`$ /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"`
+　　　```$ /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"```
 
 　●pyenvインストール  
 　　・バージョン確認（not foundならインストール要）  
-　　　`$ pyenv -v`  
+　　　```$ pyenv -v```  
 
 　　・インストール  
-　　　`$ brew install pyenv`  
+　　　```$ brew install pyenv```  
 
 　　・pyenvの設定（echoの部分はviで ~/.zshrcに書いてもいい）  
 　　　【zshの場合】  
@@ -35,22 +35,22 @@
 
 　●Pythonのインストール  
 　　・pyenvでインストール可能なバージョンの一覧を確認  
-　　　`$ pyenv install --list`  
+　　　```$ pyenv install --list```  
 
 　　・Pythonのインストール（今回はpandasを使いたいので、3.8.0を使う）  
-　　　`$ pyenv install 3.8.0`  
+　　　```$ pyenv install 3.8.0```  
 
 　　・pyenvによって管理されているものの確認（インストールしたバージョンが表示される）  
-　　　`$ pyenv versions`  
+　　　```$ pyenv versions```  
 
 　　・Pythonのバージョンの指定  
-　　　`$ pyenv global 3.8.0`  
+　　　```$ pyenv global 3.8.0```  
 
 　　・Pythonのバージョン確認  
-　　　`$ python --version`  
+　　　```$ python --version```  
 
 ## 使用するライブラリのインストール方法  
-　`$ pip install pandas lxml html5lib beautifulsoup4`  
+　```$ pip install pandas lxml html5lib beautifulsoup4```  
 
 　【関連サイト】  
 　　https://note.nkmk.me/python-pandas-web-html-table-scraping/  
