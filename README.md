@@ -1,17 +1,17 @@
-#使用方法  
+# 使用方法  
 　当該フォルダに移動し、以下コマンド実行  
 　`$ python index.py`
 
-#説明  
+# 説明  
 　以下サイトの「減価償却資産の償却率表」の表のデータを取得し  
 　JavaScriptで使用できるオブジェクト形式に加工、及び出力をする  
 　【参照サイト】  
 　　http://tool.yurikago.net/644/yurikago/2012shokyakuritsu.html  
 
-#使用技術  
+# 使用技術  
 　Python 3.8.0（3.9.0以降だとpandasがまだ使えないみたい）  
 
-#環境構築（Mac用）  
+# 環境構築（Mac用）  
 　●Homebrewインストール  
 　　・バージョン確認（not foundならインストール要）  
 　　　`$ brew -v`
@@ -49,7 +49,7 @@
 　　・Pythonのバージョン確認  
 　　　`$ python --version`  
 
-#使用するライブラリのインストール方法  
+# 使用するライブラリのインストール方法  
 　`$ pip install pandas lxml html5lib beautifulsoup4`  
 
 　【関連サイト】  
