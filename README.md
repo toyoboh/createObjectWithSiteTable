@@ -28,10 +28,10 @@
 
 　　・pyenvの設定（echoの部分はviで ~/.zshrcに書いてもいい）  
 　　　【zshの場合】  
-　　　　    $ echo 'export PYENV_ROOT="$HOME/.pyenv"' >> ~/.zshrc
-　　　　    $ echo 'export PATH="$PYENV_ROOT/shims:$PATH"' >> ~/.zshrc
-　　　　    $ echo 'eval "$(pyenv init -)"' >> ~/.zshrc
-　　　　    $ source ~/.zshrc
+    $ echo 'export PYENV_ROOT="$HOME/.pyenv"' >> ~/.zshrc
+    $ echo 'export PATH="$PYENV_ROOT/shims:$PATH"' >> ~/.zshrc
+    $ echo 'eval "$(pyenv init -)"' >> ~/.zshrc
+    $ source ~/.zshrc
 
 　●Pythonのインストール
 　　・pyenvでインストール可能なバージョンの一覧を確認
